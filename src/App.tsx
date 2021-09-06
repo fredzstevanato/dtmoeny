@@ -1,6 +1,11 @@
+import { GlobalStyle } from "./styles/global";
+
 export function App() {
   return (
-    <h1>DtMoney</h1>
+    <>  
+      <h1>DtMoney</h1>
+      <GlobalStyle />
+    </>
   );
 }
 
